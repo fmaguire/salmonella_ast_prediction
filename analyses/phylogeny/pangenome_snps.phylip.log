@@ -1,0 +1,445 @@
+IQ-TREE version 1.6.5 for Linux 64-bit built May  8 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    stahl (SSE3, 15 GB RAM)
+Command: ../../iqtree -s pangenome_snps.phylip -st DNA -m TEST -bb 1000 -alrt 1000
+Seed:    286900 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Jun 22 16:34:58 2018
+Kernel:  SSE2
+
+NOTE: Consider using the multicore version because your CPU has 8 cores!
+
+Reading alignment file pangenome_snps.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 97 sequences with 77795 columns, 2726 distinct patterns
+70017 parsimony-informative, 7778 singleton sites, 0 constant sites
+      Gap/Ambiguity  Composition  p-value
+   1  1758    0.40%    passed     15.18%
+   2  1760    0.24%    passed     56.92%
+   3  1762    0.24%    passed     56.85%
+   4  1766    0.24%    passed     55.07%
+   5  1767    0.24%    passed     54.81%
+   6  1768    0.32%    passed     57.45%
+   7  1769    0.25%    passed     55.19%
+   8  1770    0.24%    passed     55.70%
+   9  1771    0.24%    passed     57.20%
+  10  1772    0.25%    passed     54.00%
+  11  1773    0.25%    passed     55.13%
+  12  1775    0.24%    passed     54.93%
+  13  1778    0.39%    passed     14.15%
+  14  1783    0.38%    passed     14.46%
+  15  1792    0.24%    passed     26.55%
+  16  1793    0.25%    passed     22.95%
+  17  1797    0.42%    passed     22.35%
+  18  1803    0.24%    passed     24.53%
+  19  1811    0.22%    passed     27.27%
+  20  1888    0.23%    passed     29.89%
+  21  1890    0.22%    passed     25.65%
+  22  1891    0.25%    passed     24.52%
+  23  1892    0.24%    passed     21.30%
+  24  1893    0.22%    passed     23.74%
+  25  2003    0.44%    passed     21.95%
+  26  2005    0.44%    passed     20.33%
+  27  3125    0.24%    passed     92.13%
+  28  3126    0.22%    passed     19.68%
+  29  3128    0.25%    passed     20.35%
+  30  3132    0.43%    passed     11.07%
+  31  3133    0.16%    passed     89.24%
+  32  3134    0.34%    passed     14.50%
+  33  3135    0.17%    passed     89.42%
+  34  3137    0.18%    passed     89.32%
+  35  3138    0.19%    passed     89.80%
+  36  3139    0.19%    passed     89.03%
+  37  3140    0.20%    passed     56.54%
+  38  3142    0.20%    passed     92.32%
+  39  3143    0.24%    passed     20.59%
+  40  3144    0.35%    passed     11.10%
+  41  3145    0.35%    passed     14.38%
+  42  3146    0.21%    passed     92.63%
+  43  3147    0.20%    passed     92.53%
+  44  3149    0.20%    passed     94.04%
+  45  3151    0.25%    passed     25.36%
+  46  3156    0.19%    passed     90.21%
+  47  3158    0.18%    passed     91.54%
+  48  3160    0.25%    passed     25.87%
+  49  3162    0.25%    passed     25.84%
+  50  3166    0.25%    passed     25.97%
+  51  3167    0.37%    passed     25.90%
+  52  3168    0.20%    passed     50.80%
+  53  3169    0.34%    passed     27.91%
+  54  3171    0.22%    passed     19.93%
+  55  3176    0.24%    passed     19.88%
+  56  3179    0.38%    passed     12.06%
+  57  3180    0.36%    passed     28.66%
+  58  3181    0.33%    passed     22.05%
+  59  3184    0.40%    passed     12.88%
+  60  3186    0.22%    passed     93.02%
+  61  3191    0.21%    passed     92.91%
+  62  3193    0.23%    passed     86.03%
+  63  3197    0.21%    passed     93.09%
+  64  3198    0.25%    passed     25.57%
+  65  3199    0.23%    passed     25.40%
+  66  3200    0.20%    passed     92.34%
+  67  3302    0.38%    passed     15.15%
+  68  3303    0.37%    passed     23.55%
+  69  3305    0.39%    passed     14.75%
+  70  3306    0.38%    passed     14.25%
+  71  3310    0.38%    passed     14.54%
+  72  3311    0.36%    passed     14.95%
+  73  3313    0.36%    passed     13.95%
+  74  3314    0.40%    passed     11.51%
+  75  3315    0.39%    passed     14.36%
+  76  3317    0.33%    passed     15.29%
+  77  3318    0.36%    passed     14.17%
+  78  3319    0.35%    passed     15.14%
+  79  3321    0.37%    passed     14.00%
+  80  3322    0.39%    passed     14.64%
+  81  3323    0.37%    passed     14.43%
+  82  3324    0.39%    passed     13.73%
+  83  3326    0.37%    passed     14.32%
+  84  3332    0.20%    passed     51.96%
+  85  3333    0.26%    passed     25.15%
+  86  3336    0.41%    passed     14.18%
+  87  3337    0.37%    passed     13.54%
+  88  3338    0.37%    passed     13.68%
+  89  3339    0.24%    passed     20.15%
+  90  3341    0.36%    passed     14.51%
+  91  3342    0.20%    passed     54.89%
+  92  3344    0.35%    passed     12.60%
+  93  3348    0.34%    passed     28.67%
+  94  3349    0.39%    passed     14.55%
+  95  3351    0.40%    passed     14.19%
+  96  3352    0.36%    passed     28.87%
+  97  3353    0.20%    passed     89.08%
+****  TOTAL    0.29%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.969 seconds
+NOTE: ModelFinder requires 44 MB RAM!
+ModelFinder will test 88 DNA models (sample size: 77795) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            509834.494   191 1020050.988  1020051.934  1021819.998
+Ascertainment bias correction: 4 unobservable constant patterns
+  2  JC+ASC        485938.757   191 972259.513   972260.458   974028.523
+  3  JC+G4         509860.303   192 1020104.606  1020105.561  1021882.877
+Ascertainment bias correction: 4 unobservable constant patterns
+  4  JC+ASC+G4     485940.029   192 972264.059   972265.014   974042.331
+  5  F81+F         508489.666   194 1017367.333  1017368.308  1019164.128
+Ascertainment bias correction: 4 unobservable constant patterns
+  6  F81+F+ASC     484884.304   194 970156.608   970157.583   971953.403
+  7  F81+F+G4      508515.060   195 1017420.119  1017421.104  1019226.177
+Ascertainment bias correction: 4 unobservable constant patterns
+  8  F81+F+ASC+G4  484885.605   195 970161.209   970162.194   971967.267
+  9  K2P           457084.065   192 914552.130   914553.085   916330.402
+Ascertainment bias correction: 4 unobservable constant patterns
+ 10  K2P+ASC       435805.226   192 871994.453   871995.408   873772.725
+ 11  K2P+G4        457102.982   193 914591.965   914592.930   916379.499
+Ascertainment bias correction: 4 unobservable constant patterns
+ 12  K2P+ASC+G4    435805.656   193 871997.312   871998.277   873784.846
+ 13  HKY+F         454426.387   195 909242.774   909243.759   911048.831
+Ascertainment bias correction: 4 unobservable constant patterns
+ 14  HKY+F+ASC     433547.878   195 867485.756   867486.741   869291.814
+ 15  HKY+F+G4      454443.967   196 909279.934   909280.929   911095.253
+Ascertainment bias correction: 4 unobservable constant patterns
+ 16  HKY+F+ASC+G4  433548.514   196 867489.028   867490.024   869304.348
+ 17  TNe           456999.203   193 914384.405   914385.370   916171.939
+Ascertainment bias correction: 4 unobservable constant patterns
+ 18  TNe+ASC       435237.265   193 870860.530   870861.495   872648.064
+ 19  TNe+G4        457018.076   194 914424.153   914425.128   916220.948
+Ascertainment bias correction: 4 unobservable constant patterns
+ 20  TNe+ASC+G4    435237.525   194 870863.050   870864.025   872659.846
+ 21  TN+F          454318.988   196 909029.975   909030.970   910845.294
+Ascertainment bias correction: 4 unobservable constant patterns
+ 22  TN+F+ASC      433452.695   196 867297.390   867298.385   869112.709
+ 23  TN+F+G4       454336.836   197 909067.673   909068.678   910892.254
+Ascertainment bias correction: 4 unobservable constant patterns
+ 24  TN+F+ASC+G4   433453.372   197 867300.743   867301.749   869125.324
+ 25  K3P           456578.901   193 913543.802   913544.767   915331.336
+Ascertainment bias correction: 4 unobservable constant patterns
+ 26  K3P+ASC       435331.987   193 871049.974   871050.939   872837.507
+ 27  K3P+G4        456597.606   194 913583.212   913584.187   915380.007
+Ascertainment bias correction: 4 unobservable constant patterns
+ 28  K3P+ASC+G4    435332.353   194 871052.706   871053.681   872849.502
+ 29  K3Pu+F        453678.329   196 907748.657   907749.652   909563.976
+Ascertainment bias correction: 4 unobservable constant patterns
+ 30  K3Pu+F+ASC    432814.994   196 866021.988   866022.984   867837.308
+ 31  K3Pu+F+G4     453695.437   197 907784.875   907785.880   909609.456
+Ascertainment bias correction: 4 unobservable constant patterns
+ 32  K3Pu+F+ASC+G4 432815.536   197 866025.071   866026.077   867849.652
+ 33  TPM2+F        454306.843   196 909005.687   909006.682   910821.006
+Ascertainment bias correction: 4 unobservable constant patterns
+ 34  TPM2+F+ASC    433363.053   196 867118.107   867119.102   868933.426
+ 35  TPM2+F+G4     454324.235   197 909042.471   909043.476   910867.052
+Ascertainment bias correction: 4 unobservable constant patterns
+ 36  TPM2+F+ASC+G4 433363.668   197 867121.336   867122.341   868945.917
+ 37  TPM2u+F       454306.842   196 909005.684   909006.679   910821.003
+Ascertainment bias correction: 4 unobservable constant patterns
+ 38  TPM2u+F+ASC   433363.054   196 867118.107   867119.103   868933.427
+ 39  TPM2u+F+G4    454324.235   197 909042.470   909043.476   910867.051
+Ascertainment bias correction: 4 unobservable constant patterns
+ 40  TPM2u+F+ASC+G4 433363.668   197 867121.336   867122.341   868945.917
+ 41  TPM3+F        454164.694   196 908721.388   908722.383   910536.707
+Ascertainment bias correction: 4 unobservable constant patterns
+ 42  TPM3+F+ASC    433195.483   196 866782.965   866783.960   868598.284
+ 43  TPM3+F+G4     454181.974   197 908757.948   908758.953   910582.529
+Ascertainment bias correction: 4 unobservable constant patterns
+ 44  TPM3+F+ASC+G4 433196.095   197 866786.190   866787.195   868610.771
+ 45  TPM3u+F       454164.705   196 908721.410   908722.405   910536.729
+Ascertainment bias correction: 4 unobservable constant patterns
+ 46  TPM3u+F+ASC   433195.483   196 866782.966   866783.961   868598.285
+ 47  TPM3u+F+G4    454181.974   197 908757.948   908758.953   910582.529
+Ascertainment bias correction: 4 unobservable constant patterns
+ 48  TPM3u+F+ASC+G4 433196.095   197 866786.190   866787.195   868610.771
+ 49  TIMe          456494.094   194 913376.189   913377.164   915172.984
+Ascertainment bias correction: 4 unobservable constant patterns
+ 50  TIMe+ASC      434764.065   194 869916.129   869917.104   871712.925
+ 51  TIMe+G4       456512.683   195 913415.365   913416.350   915221.422
+Ascertainment bias correction: 4 unobservable constant patterns
+ 52  TIMe+ASC+G4   434764.251   195 869918.501   869919.486   871724.559
+ 53  TIM+F         453570.076   197 907534.151   907535.157   909358.732
+Ascertainment bias correction: 4 unobservable constant patterns
+ 54  TIM+F+ASC     432719.042   197 865832.085   865833.090   867656.666
+ 55  TIM+F+G4      453587.484   198 907570.968   907571.984   909404.811
+Ascertainment bias correction: 4 unobservable constant patterns
+ 56  TIM+F+ASC+G4  432719.628   198 865835.256   865836.271   867669.099
+ 57  TIM2e         456993.144   194 914374.288   914375.263   916171.083
+Ascertainment bias correction: 4 unobservable constant patterns
+ 58  TIM2e+ASC     435225.662   194 870839.324   870840.299   872636.120
+ 59  TIM2e+G4      457012.045   195 914414.090   914415.075   916220.147
+Ascertainment bias correction: 4 unobservable constant patterns
+ 60  TIM2e+ASC+G4  435225.945   195 870841.889   870842.874   872647.946
+ 61  TIM2+F        454198.898   197 908791.795   908792.801   910616.376
+Ascertainment bias correction: 4 unobservable constant patterns
+ 62  TIM2+F+ASC    433265.362   197 866924.724   866925.729   868749.305
+ 63  TIM2+F+G4     454216.562   198 908829.123   908830.139   910662.966
+Ascertainment bias correction: 4 unobservable constant patterns
+ 64  TIM2+F+ASC+G4 433266.020   198 866928.041   866929.056   868761.884
+ 65  TIM3e         456851.633   194 914091.266   914092.241   915888.062
+Ascertainment bias correction: 4 unobservable constant patterns
+ 66  TIM3e+ASC     435210.998   194 870809.997   870810.972   872606.792
+ 67  TIM3e+G4      456870.432   195 914130.864   914131.849   915936.921
+Ascertainment bias correction: 4 unobservable constant patterns
+ 68  TIM3e+ASC+G4  435211.314   195 870812.627   870813.612   872618.685
+ 69  TIM3+F        454058.536   197 908511.072   908512.077   910335.653
+Ascertainment bias correction: 4 unobservable constant patterns
+ 70  TIM3+F+ASC    433102.057   197 866598.114   866599.119   868422.695
+ 71  TIM3+F+G4     454076.090   198 908548.180   908549.195   910382.023
+Ascertainment bias correction: 4 unobservable constant patterns
+ 72  TIM3+F+ASC+G4 433102.724   198 866601.448   866602.463   868435.291
+ 73  TVMe          456488.863   195 913367.726   913368.711   915173.783
+Ascertainment bias correction: 4 unobservable constant patterns
+ 74  TVMe+ASC      435299.826   195 870989.651   870990.636   872795.708
+ 75  TVMe+G4       456507.422   196 913406.844   913407.839   915222.163
+Ascertainment bias correction: 4 unobservable constant patterns
+ 76  TVMe+ASC+G4   435300.195   196 870992.390   870993.385   872807.709
+ 77  TVM+F         453509.416   198 907414.832   907415.847   909248.674
+Ascertainment bias correction: 4 unobservable constant patterns
+ 78  TVM+F+ASC     432521.937   198 865439.874   865440.889   867273.717
+ 79  TVM+F+G4      453526.300   199 907450.599   907451.625   909293.704
+Ascertainment bias correction: 4 unobservable constant patterns
+ 80  TVM+F+ASC+G4  432522.452   199 865442.904   865443.930   867286.009
+ 81  SYM           456401.045   196 913194.090   913195.085   915009.409
+Ascertainment bias correction: 4 unobservable constant patterns
+ 82  SYM+ASC       434729.290   196 869850.580   869851.575   871665.899
+ 83  SYM+G4        456419.602   197 913233.204   913234.209   915057.785
+Ascertainment bias correction: 4 unobservable constant patterns
+ 84  SYM+ASC+G4    434729.526   197 869853.052   869854.057   871677.633
+ 85  GTR+F         453402.988   199 907203.976   907205.002   909047.081
+Ascertainment bias correction: 4 unobservable constant patterns
+ 86  GTR+F+ASC     432426.171   199 865250.342   865251.368   867093.447
+ 87  GTR+F+G4      453419.921   200 907239.843   907240.879   909092.209
+Ascertainment bias correction: 4 unobservable constant patterns
+ 88  GTR+F+ASC+G4  432426.728   200 865253.457   865254.493   867105.823
+Akaike Information Criterion:           GTR+F+ASC
+Corrected Akaike Information Criterion: GTR+F+ASC
+Bayesian Information Criterion:         GTR+F+ASC
+Best-fit model: GTR+F+ASC chosen according to BIC
+
+All model information printed to pangenome_snps.phylip.model.gz
+CPU time for ModelFinder: 499.317 seconds (0h:8m:19s)
+Wall-clock time for ModelFinder: 500.031 seconds (0h:8m:20s)
+Generating 1000 samples for ultrafast bootstrap (seed: 286900)...
+Ascertainment bias correction: 4 unobservable constant patterns
+
+NOTE: 19 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -485383.093
+2. Current log-likelihood: -438943.437
+3. Current log-likelihood: -437188.185
+4. Current log-likelihood: -435558.725
+5. Current log-likelihood: -432496.447
+6. Current log-likelihood: -432426.887
+7. Current log-likelihood: -432426.331
+Optimal log-likelihood: -432426.301
+Rate parameters:  A-C: 0.92633  A-G: 7.35331  A-T: 0.77204  C-G: 0.39407  C-T: 6.45850  G-T: 1.00000
+Base frequencies:  A: 0.182  C: 0.325  G: 0.259  T: 0.234
+Parameters optimization took 7 rounds (12.211 sec)
+Computing ML distances based on estimated model parameters... 0.788 sec
+Computing BIONJ tree...
+0.035 seconds
+Log-likelihood of BIONJ tree: -433100.885
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 176.287 second
+Computing log-likelihood of 98 initial trees ... 21.421 seconds
+Current best score: -432426.301
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -432399.841
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -432391.856
+Iteration 10 / LogL: -432391.869 / Time: 0h:4m:21s
+Iteration 20 / LogL: -432396.148 / Time: 0h:5m:11s
+Finish initializing candidate tree set (20)
+Current best tree score: -432391.856 / CPU time: 296.969
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -432391.725
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 28: -432391.564
+Iteration 30 / LogL: -432399.333 / Time: 0h:5m:51s (0h:19m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -432391.509
+Iteration 40 / LogL: -432391.695 / Time: 0h:6m:31s (0h:15m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 49: -432391.454
+Iteration 50 / LogL: -432444.246 / Time: 0h:7m:5s (0h:14m:19s left)
+Log-likelihood cutoff on original alignment: -432464.517
+Iteration 60 / LogL: -432559.371 / Time: 0h:7m:35s (0h:11m:27s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -432391.391
+Iteration 70 / LogL: -437794.403 / Time: 0h:8m:15s (0h:11m:7s left)
+Iteration 80 / LogL: -432391.661 / Time: 0h:8m:52s (0h:9m:19s left)
+Iteration 90 / LogL: -432391.612 / Time: 0h:9m:30s (0h:7m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 93: -432391.261
+Iteration 100 / LogL: -432391.554 / Time: 0h:10m:4s (0h:9m:27s left)
+Log-likelihood cutoff on original alignment: -432463.838
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -432391.342 / Time: 0h:10m:38s (0h:8m:47s left)
+Iteration 120 / LogL: -432391.594 / Time: 0h:11m:13s (0h:7m:32s left)
+Iteration 130 / LogL: -432559.289 / Time: 0h:11m:46s (0h:6m:23s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 140: -432391.218
+Iteration 140 / LogL: -432391.218 / Time: 0h:12m:27s (0h:8m:58s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -432391.127
+Iteration 150 / LogL: -432391.321 / Time: 0h:13m:8s (0h:8m:33s left)
+Log-likelihood cutoff on original alignment: -432463.838
+Iteration 160 / LogL: -432442.481 / Time: 0h:13m:44s (0h:7m:30s left)
+Iteration 170 / LogL: -432391.375 / Time: 0h:14m:23s (0h:6m:33s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 171: -432391.058
+BETTER TREE FOUND at iteration 180: -432391.055
+Iteration 180 / LogL: -432391.055 / Time: 0h:15m:1s (0h:8m:23s left)
+Iteration 190 / LogL: -432391.155 / Time: 0h:15m:38s (0h:7m:27s left)
+Iteration 200 / LogL: -432567.803 / Time: 0h:16m:17s (0h:6m:33s left)
+Log-likelihood cutoff on original alignment: -432463.838
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+Iteration 210 / LogL: -433088.814 / Time: 0h:16m:56s (0h:7m:17s left)
+Iteration 220 / LogL: -432391.528 / Time: 0h:17m:38s (0h:6m:26s left)
+Iteration 230 / LogL: -432450.241 / Time: 0h:18m:17s (0h:5m:35s left)
+Iteration 240 / LogL: -432391.338 / Time: 0h:18m:54s (0h:4m:44s left)
+Iteration 250 / LogL: -432395.499 / Time: 0h:19m:31s (0h:3m:55s left)
+Log-likelihood cutoff on original alignment: -432463.838
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 256: -432390.951
+Iteration 260 / LogL: -432391.465 / Time: 0h:20m:2s (0h:7m:25s left)
+Iteration 270 / LogL: -432563.451 / Time: 0h:20m:43s (0h:6m:37s left)
+Iteration 280 / LogL: -432391.257 / Time: 0h:21m:21s (0h:5m:49s left)
+Iteration 290 / LogL: -432391.297 / Time: 0h:21m:59s (0h:5m:1s left)
+Iteration 300 / LogL: -432391.168 / Time: 0h:22m:33s (0h:4m:13s left)
+Log-likelihood cutoff on original alignment: -432463.838
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 310 / LogL: -432391.290 / Time: 0h:23m:10s (0h:6m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 311: -432390.938
+Iteration 320 / LogL: -432399.031 / Time: 0h:23m:53s (0h:6m:48s left)
+Iteration 330 / LogL: -432391.253 / Time: 0h:24m:29s (0h:6m:1s left)
+Iteration 340 / LogL: -432393.167 / Time: 0h:25m:9s (0h:5m:16s left)
+Iteration 350 / LogL: -432390.986 / Time: 0h:25m:42s (0h:4m:29s left)
+Log-likelihood cutoff on original alignment: -432463.838
+Iteration 360 / LogL: -432391.009 / Time: 0h:26m:26s (0h:3m:45s left)
+Iteration 370 / LogL: -432391.094 / Time: 0h:27m:8s (0h:3m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 373: -432390.850
+BETTER TREE FOUND at iteration 378: -432390.850
+Iteration 380 / LogL: -432558.783 / Time: 0h:27m:53s (0h:7m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 384: -432390.746
+Iteration 390 / LogL: -432398.582 / Time: 0h:28m:34s (0h:6m:54s left)
+Iteration 400 / LogL: -432390.955 / Time: 0h:29m:12s (0h:6m:9s left)
+Log-likelihood cutoff on original alignment: -432463.838
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 410 / LogL: -432390.766 / Time: 0h:29m:48s (0h:6m:33s left)
+Iteration 420 / LogL: -432391.036 / Time: 0h:30m:32s (0h:5m:49s left)
+Iteration 430 / LogL: -432490.354 / Time: 0h:31m:3s (0h:5m:4s left)
+Iteration 440 / LogL: -432390.948 / Time: 0h:31m:45s (0h:4m:20s left)
+Iteration 450 / LogL: -432440.862 / Time: 0h:32m:31s (0h:3m:37s left)
+Log-likelihood cutoff on original alignment: -432463.838
+Iteration 460 / LogL: -432464.410 / Time: 0h:33m:11s (0h:2m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 466: -432390.625
+Iteration 470 / LogL: -432630.868 / Time: 0h:33m:49s (0h:6m:55s left)
+Iteration 480 / LogL: -432558.543 / Time: 0h:34m:21s (0h:6m:10s left)
+Iteration 490 / LogL: -432392.538 / Time: 0h:34m:57s (0h:5m:25s left)
+Iteration 500 / LogL: -435163.468 / Time: 0h:35m:33s (0h:4m:42s left)
+Log-likelihood cutoff on original alignment: -432463.838
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Iteration 510 / LogL: -432395.061 / Time: 0h:36m:10s (0h:6m:23s left)
+Iteration 520 / LogL: -432390.684 / Time: 0h:36m:50s (0h:5m:40s left)
+Iteration 530 / LogL: -433058.256 / Time: 0h:37m:27s (0h:4m:57s left)
+Iteration 540 / LogL: -432394.644 / Time: 0h:38m:7s (0h:4m:14s left)
+Iteration 550 / LogL: -432399.804 / Time: 0h:38m:46s (0h:3m:31s left)
+Log-likelihood cutoff on original alignment: -432463.838
+Iteration 560 / LogL: -432461.126 / Time: 0h:39m:27s (0h:2m:49s left)
+TREE SEARCH COMPLETED AFTER 567 ITERATIONS / Time: 0h:39m:55s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -432390.625
+Optimal log-likelihood: -432390.623
+Rate parameters:  A-C: 0.92620  A-G: 7.35126  A-T: 0.76991  C-G: 0.39444  C-T: 6.44977  G-T: 1.00000
+Base frequencies:  A: 0.182  C: 0.325  G: 0.259  T: 0.234
+Parameters optimization took 1 rounds (0.526 sec)
+BEST SCORE FOUND : -432390.623
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+37.071 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file pangenome_snps.phylip.splits.nex
+Total tree length: 1.137
+
+Total number of iterations: 567
+CPU time used for tree search: 2376.129 sec (0h:39m:36s)
+Wall-clock time used for tree search: 2381.268 sec (0h:39m:41s)
+Total CPU time used: 2428.526 sec (0h:40m:28s)
+Total wall-clock time used: 2434.106 sec (0h:40m:34s)
+
+Computing bootstrap consensus tree...
+Reading input file pangenome_snps.phylip.splits.nex...
+97 taxa and 530 splits.
+Consensus tree written to pangenome_snps.phylip.contree
+Reading input trees file pangenome_snps.phylip.contree
+Log-likelihood of consensus tree: -432391.679
+
+Analysis results written to: 
+  IQ-TREE report:                pangenome_snps.phylip.iqtree
+  Maximum-likelihood tree:       pangenome_snps.phylip.treefile
+  Likelihood distances:          pangenome_snps.phylip.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          pangenome_snps.phylip.splits.nex
+  Consensus tree:                pangenome_snps.phylip.contree
+  Screen log file:               pangenome_snps.phylip.log
+
+Date and Time: Fri Jun 22 17:23:55 2018
