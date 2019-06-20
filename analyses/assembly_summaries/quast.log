@@ -1,0 +1,540 @@
+/home/fin/miniconda3/envs/quast/bin/quast -t 2 1758_irida-submission-4654.fna 1760_irida-submission-4658.fna 1762_irida-submission-4660.fna 1766_irida-submission-4662.fna 1767_irida-submission-4664.fna 1768_irida-submission-4666.fna 1769_irida-submission-4668.fna 1770_irida-submission-4670.fna 1771_irida-submission-4672.fna 1772_irida-submission-4674.fna 1773_irida-submission-4676.fna 1775_irida-submission-4678.fna 1778_irida-submission-4656.fna 1783_irida-submission-10146.fna 1792_irida-submission-4680.fna 1793_irida-submission-4684.fna 1797_irida-submission-4682.fna 1803_irida-submission-4686.fna 1811_irida-submission-4688.fna 1888_irida-submission-4690.fna 1890_irida-submission-4692.fna 1891_irida-submission-4694.fna 1892_irida-submission-4756.fna 1893_irida-submission-4751.fna 2003_irida-submission-4758.fna 2005_irida-submission-4761.fna 3125_irida-submission-4766.fna 3126_irida-submission-4768.fna 3128_irida-submission-4772.fna 3132_irida-submission-4774.fna 3133_irida-submission-4797.fna 3134_irida-submission-4799.fna 3135_irida-submission-4801.fna 3137_irida-submission-4803.fna 3138_irida-submission-4809.fna 3139_irida-submission-4813.fna 3140_irida-submission-4811.fna 3142_irida-submission-4815.fna 3143_irida-submission-4819.fna 3144_irida-submission-4817.fna 3145_irida-submission-4824.fna 3146_irida-submission-4822.fna 3147_irida-submission-4828.fna 3149_irida-submission-4826.fna 3151_irida-submission-4830.fna 3156_irida-submission-4832.fna 3158_irida-submission-4834.fna 3160_irida-submission-4836.fna 3162_irida-submission-7407.fna 3166_irida-submission-7409.fna 3167_irida-submission-7542.fna 3168_irida-submission-7544.fna 3169_irida-submission-7546.fna 3171_irida-submission-7548.fna 3176_irida-submission-7550.fna 3179_irida-submission-7552.fna 3180_irida-submission-7554.fna 3181_irida-submission-7556.fna 3184_irida-submission-7558.fna 3186_irida-submission-7560.fna 3191_irida-submission-7562.fna 3193_irida-submission-7564.fna 3197_irida-submission-7566.fna 3198_irida-submission-7568.fna 3199_irida-submission-7570.fna 3200_irida-submission-7572.fna 3302_irida-submission-7574.fna 3303_irida-submission-7576.fna 3305_irida-submission-7578.fna 3306_irida-submission-7580.fna 3310_irida-submission-7582.fna 3311_irida-submission-7584.fna 3313_irida-submission-7586.fna 3314_irida-submission-7588.fna 3315_irida-submission-7590.fna 3317_irida-submission-7592.fna 3318_irida-submission-7594.fna 3319_irida-submission-7596.fna 3321_irida-submission-7485.fna 3322_irida-submission-7487.fna 3323_irida-submission-7499.fna 3324_irida-submission-7489.fna 3326_irida-submission-7491.fna 3332_irida-submission-7376.fna 3333_irida-submission-7381.fna 3336_irida-submission-7501.fna 3337_irida-submission-7503.fna 3338_irida-submission-7505.fna 3339_irida-submission-7440.fna 3341_irida-submission-7493.fna 3342_irida-submission-7379.fna 3344_irida-submission-7495.fna 3348_irida-submission-7346.fna 3349_irida-submission-7507.fna 3351_irida-submission-7497.fna 3352_irida-submission-7348.fna 3353_irida-submission-7444.fna
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-4.20.1-arch1-1-ARCH-x86_64-with-arch (linux_64)
+  Python version: 3.6.7
+  CPUs number: 4
+
+Started: 2019-06-03 23:43:12
+
+Logging to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/quast.log
+
+CWD: /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used
+Main parameters: 
+  MODE: default, threads: 2, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  1  1758_irida-submission-4654.fna ==> 1758_irida_submission_4654
+  2  1760_irida-submission-4658.fna ==> 1760_irida_submission_4658
+  3  1762_irida-submission-4660.fna ==> 1762_irida_submission_4660
+  4  1766_irida-submission-4662.fna ==> 1766_irida_submission_4662
+  5  1767_irida-submission-4664.fna ==> 1767_irida_submission_4664
+  6  1768_irida-submission-4666.fna ==> 1768_irida_submission_4666
+  7  1769_irida-submission-4668.fna ==> 1769_irida_submission_4668
+  8  1770_irida-submission-4670.fna ==> 1770_irida_submission_4670
+  9  1771_irida-submission-4672.fna ==> 1771_irida_submission_4672
+  10 1772_irida-submission-4674.fna ==> 1772_irida_submission_4674
+  11 1773_irida-submission-4676.fna ==> 1773_irida_submission_4676
+  12 1775_irida-submission-4678.fna ==> 1775_irida_submission_4678
+  13 1778_irida-submission-4656.fna ==> 1778_irida_submission_4656
+  14 1783_irida-submission-10146.fna ==> 1783_irida_submission_10146
+  15 1792_irida-submission-4680.fna ==> 1792_irida_submission_4680
+  16 1793_irida-submission-4684.fna ==> 1793_irida_submission_4684
+  17 1797_irida-submission-4682.fna ==> 1797_irida_submission_4682
+  18 1803_irida-submission-4686.fna ==> 1803_irida_submission_4686
+  19 1811_irida-submission-4688.fna ==> 1811_irida_submission_4688
+  20 1888_irida-submission-4690.fna ==> 1888_irida_submission_4690
+  21 1890_irida-submission-4692.fna ==> 1890_irida_submission_4692
+  22 1891_irida-submission-4694.fna ==> 1891_irida_submission_4694
+  23 1892_irida-submission-4756.fna ==> 1892_irida_submission_4756
+  24 1893_irida-submission-4751.fna ==> 1893_irida_submission_4751
+  25 2003_irida-submission-4758.fna ==> 2003_irida_submission_4758
+  26 2005_irida-submission-4761.fna ==> 2005_irida_submission_4761
+  27 3125_irida-submission-4766.fna ==> 3125_irida_submission_4766
+  28 3126_irida-submission-4768.fna ==> 3126_irida_submission_4768
+  29 3128_irida-submission-4772.fna ==> 3128_irida_submission_4772
+  30 3132_irida-submission-4774.fna ==> 3132_irida_submission_4774
+  31 3133_irida-submission-4797.fna ==> 3133_irida_submission_4797
+  32 3134_irida-submission-4799.fna ==> 3134_irida_submission_4799
+  33 3135_irida-submission-4801.fna ==> 3135_irida_submission_4801
+  34 3137_irida-submission-4803.fna ==> 3137_irida_submission_4803
+  35 3138_irida-submission-4809.fna ==> 3138_irida_submission_4809
+  36 3139_irida-submission-4813.fna ==> 3139_irida_submission_4813
+  37 3140_irida-submission-4811.fna ==> 3140_irida_submission_4811
+  38 3142_irida-submission-4815.fna ==> 3142_irida_submission_4815
+  39 3143_irida-submission-4819.fna ==> 3143_irida_submission_4819
+  40 3144_irida-submission-4817.fna ==> 3144_irida_submission_4817
+  41 3145_irida-submission-4824.fna ==> 3145_irida_submission_4824
+  42 3146_irida-submission-4822.fna ==> 3146_irida_submission_4822
+  43 3147_irida-submission-4828.fna ==> 3147_irida_submission_4828
+  44 3149_irida-submission-4826.fna ==> 3149_irida_submission_4826
+  45 3151_irida-submission-4830.fna ==> 3151_irida_submission_4830
+  46 3156_irida-submission-4832.fna ==> 3156_irida_submission_4832
+  47 3158_irida-submission-4834.fna ==> 3158_irida_submission_4834
+  48 3160_irida-submission-4836.fna ==> 3160_irida_submission_4836
+  49 3162_irida-submission-7407.fna ==> 3162_irida_submission_7407
+  50 3166_irida-submission-7409.fna ==> 3166_irida_submission_7409
+  51 3167_irida-submission-7542.fna ==> 3167_irida_submission_7542
+  52 3168_irida-submission-7544.fna ==> 3168_irida_submission_7544
+  53 3169_irida-submission-7546.fna ==> 3169_irida_submission_7546
+  54 3171_irida-submission-7548.fna ==> 3171_irida_submission_7548
+  55 3176_irida-submission-7550.fna ==> 3176_irida_submission_7550
+  56 3179_irida-submission-7552.fna ==> 3179_irida_submission_7552
+  57 3180_irida-submission-7554.fna ==> 3180_irida_submission_7554
+  58 3181_irida-submission-7556.fna ==> 3181_irida_submission_7556
+  59 3184_irida-submission-7558.fna ==> 3184_irida_submission_7558
+  60 3186_irida-submission-7560.fna ==> 3186_irida_submission_7560
+  61 3191_irida-submission-7562.fna ==> 3191_irida_submission_7562
+  62 3193_irida-submission-7564.fna ==> 3193_irida_submission_7564
+  63 3197_irida-submission-7566.fna ==> 3197_irida_submission_7566
+  64 3198_irida-submission-7568.fna ==> 3198_irida_submission_7568
+  65 3199_irida-submission-7570.fna ==> 3199_irida_submission_7570
+  66 3200_irida-submission-7572.fna ==> 3200_irida_submission_7572
+  67 3302_irida-submission-7574.fna ==> 3302_irida_submission_7574
+  68 3303_irida-submission-7576.fna ==> 3303_irida_submission_7576
+  69 3305_irida-submission-7578.fna ==> 3305_irida_submission_7578
+  70 3306_irida-submission-7580.fna ==> 3306_irida_submission_7580
+  71 3310_irida-submission-7582.fna ==> 3310_irida_submission_7582
+  72 3311_irida-submission-7584.fna ==> 3311_irida_submission_7584
+  73 3313_irida-submission-7586.fna ==> 3313_irida_submission_7586
+  74 3314_irida-submission-7588.fna ==> 3314_irida_submission_7588
+  75 3315_irida-submission-7590.fna ==> 3315_irida_submission_7590
+  76 3317_irida-submission-7592.fna ==> 3317_irida_submission_7592
+  77 3318_irida-submission-7594.fna ==> 3318_irida_submission_7594
+  78 3319_irida-submission-7596.fna ==> 3319_irida_submission_7596
+  79 3321_irida-submission-7485.fna ==> 3321_irida_submission_7485
+  80 3322_irida-submission-7487.fna ==> 3322_irida_submission_7487
+  81 3323_irida-submission-7499.fna ==> 3323_irida_submission_7499
+  82 3324_irida-submission-7489.fna ==> 3324_irida_submission_7489
+  83 3326_irida-submission-7491.fna ==> 3326_irida_submission_7491
+  84 3332_irida-submission-7376.fna ==> 3332_irida_submission_7376
+  85 3333_irida-submission-7381.fna ==> 3333_irida_submission_7381
+  86 3336_irida-submission-7501.fna ==> 3336_irida_submission_7501
+  87 3337_irida-submission-7503.fna ==> 3337_irida_submission_7503
+  88 3338_irida-submission-7505.fna ==> 3338_irida_submission_7505
+  89 3339_irida-submission-7440.fna ==> 3339_irida_submission_7440
+  90 3341_irida-submission-7493.fna ==> 3341_irida_submission_7493
+  91 3342_irida-submission-7379.fna ==> 3342_irida_submission_7379
+  92 3344_irida-submission-7495.fna ==> 3344_irida_submission_7495
+  93 3348_irida-submission-7346.fna ==> 3348_irida_submission_7346
+  94 3349_irida-submission-7507.fna ==> 3349_irida_submission_7507
+  95 3351_irida-submission-7497.fna ==> 3351_irida_submission_7497
+  96 3352_irida-submission-7348.fna ==> 3352_irida_submission_7348
+  97 3353_irida-submission-7444.fna ==> 3353_irida_submission_7444
+
+2019-06-03 23:43:21
+Running Basic statistics processor...
+  Contig files: 
+    1  1758_irida_submission_4654
+    2  1760_irida_submission_4658
+    3  1762_irida_submission_4660
+    4  1766_irida_submission_4662
+    5  1767_irida_submission_4664
+    6  1768_irida_submission_4666
+    7  1769_irida_submission_4668
+    8  1770_irida_submission_4670
+    9  1771_irida_submission_4672
+    10 1772_irida_submission_4674
+    11 1773_irida_submission_4676
+    12 1775_irida_submission_4678
+    13 1778_irida_submission_4656
+    14 1783_irida_submission_10146
+    15 1792_irida_submission_4680
+    16 1793_irida_submission_4684
+    17 1797_irida_submission_4682
+    18 1803_irida_submission_4686
+    19 1811_irida_submission_4688
+    20 1888_irida_submission_4690
+    21 1890_irida_submission_4692
+    22 1891_irida_submission_4694
+    23 1892_irida_submission_4756
+    24 1893_irida_submission_4751
+    25 2003_irida_submission_4758
+    26 2005_irida_submission_4761
+    27 3125_irida_submission_4766
+    28 3126_irida_submission_4768
+    29 3128_irida_submission_4772
+    30 3132_irida_submission_4774
+    31 3133_irida_submission_4797
+    32 3134_irida_submission_4799
+    33 3135_irida_submission_4801
+    34 3137_irida_submission_4803
+    35 3138_irida_submission_4809
+    36 3139_irida_submission_4813
+    37 3140_irida_submission_4811
+    38 3142_irida_submission_4815
+    39 3143_irida_submission_4819
+    40 3144_irida_submission_4817
+    41 3145_irida_submission_4824
+    42 3146_irida_submission_4822
+    43 3147_irida_submission_4828
+    44 3149_irida_submission_4826
+    45 3151_irida_submission_4830
+    46 3156_irida_submission_4832
+    47 3158_irida_submission_4834
+    48 3160_irida_submission_4836
+    49 3162_irida_submission_7407
+    50 3166_irida_submission_7409
+    51 3167_irida_submission_7542
+    52 3168_irida_submission_7544
+    53 3169_irida_submission_7546
+    54 3171_irida_submission_7548
+    55 3176_irida_submission_7550
+    56 3179_irida_submission_7552
+    57 3180_irida_submission_7554
+    58 3181_irida_submission_7556
+    59 3184_irida_submission_7558
+    60 3186_irida_submission_7560
+    61 3191_irida_submission_7562
+    62 3193_irida_submission_7564
+    63 3197_irida_submission_7566
+    64 3198_irida_submission_7568
+    65 3199_irida_submission_7570
+    66 3200_irida_submission_7572
+    67 3302_irida_submission_7574
+    68 3303_irida_submission_7576
+    69 3305_irida_submission_7578
+    70 3306_irida_submission_7580
+    71 3310_irida_submission_7582
+    72 3311_irida_submission_7584
+    73 3313_irida_submission_7586
+    74 3314_irida_submission_7588
+    75 3315_irida_submission_7590
+    76 3317_irida_submission_7592
+    77 3318_irida_submission_7594
+    78 3319_irida_submission_7596
+    79 3321_irida_submission_7485
+    80 3322_irida_submission_7487
+    81 3323_irida_submission_7499
+    82 3324_irida_submission_7489
+    83 3326_irida_submission_7491
+    84 3332_irida_submission_7376
+    85 3333_irida_submission_7381
+    86 3336_irida_submission_7501
+    87 3337_irida_submission_7503
+    88 3338_irida_submission_7505
+    89 3339_irida_submission_7440
+    90 3341_irida_submission_7493
+    91 3342_irida_submission_7379
+    92 3344_irida_submission_7495
+    93 3348_irida_submission_7346
+    94 3349_irida_submission_7507
+    95 3351_irida_submission_7497
+    96 3352_irida_submission_7348
+    97 3353_irida_submission_7444
+  Calculating N50 and L50...
+    1  1758_irida_submission_4654, N50 = 279740, L50 = 6, Total length = 4874374, GC % = 51.99, # N's per 100 kbp =  0.00
+    2  1760_irida_submission_4658, N50 = 412162, L50 = 4, Total length = 4807766, GC % = 52.08, # N's per 100 kbp =  0.00
+    3  1762_irida_submission_4660, N50 = 412162, L50 = 4, Total length = 4804593, GC % = 52.07, # N's per 100 kbp =  0.00
+    4  1766_irida_submission_4662, N50 = 270150, L50 = 6, Total length = 4803277, GC % = 52.07, # N's per 100 kbp =  0.00
+    5  1767_irida_submission_4664, N50 = 298851, L50 = 6, Total length = 4795998, GC % = 52.10, # N's per 100 kbp =  0.00
+    6  1768_irida_submission_4666, N50 = 412030, L50 = 4, Total length = 4799279, GC % = 52.09, # N's per 100 kbp =  0.00
+    7  1769_irida_submission_4668, N50 = 203736, L50 = 9, Total length = 4798188, GC % = 52.10, # N's per 100 kbp =  0.00
+    8  1770_irida_submission_4670, N50 = 412162, L50 = 4, Total length = 4806628, GC % = 52.07, # N's per 100 kbp =  0.00
+    9  1771_irida_submission_4672, N50 = 179996, L50 = 8, Total length = 4800118, GC % = 52.10, # N's per 100 kbp =  0.00
+    10 1772_irida_submission_4674, N50 = 412096, L50 = 4, Total length = 4809479, GC % = 52.07, # N's per 100 kbp =  0.00
+    11 1773_irida_submission_4676, N50 = 250750, L50 = 7, Total length = 4805783, GC % = 52.08, # N's per 100 kbp =  0.00
+    12 1775_irida_submission_4678, N50 = 270339, L50 = 5, Total length = 4817508, GC % = 52.07, # N's per 100 kbp =  0.00
+    13 1778_irida_submission_4656, N50 = 279740, L50 = 6, Total length = 4872879, GC % = 51.99, # N's per 100 kbp =  0.00
+    14 1783_irida_submission_10146, N50 = 279740, L50 = 6, Total length = 4875147, GC % = 51.99, # N's per 100 kbp =  0.00
+    15 1792_irida_submission_4680, N50 = 271389, L50 = 6, Total length = 4859379, GC % = 52.24, # N's per 100 kbp =  0.00
+    16 1793_irida_submission_4684, N50 = 271198, L50 = 6, Total length = 4863511, GC % = 52.24, # N's per 100 kbp =  0.00
+    17 1797_irida_submission_4682, N50 = 490432, L50 = 3, Total length = 4728046, GC % = 52.12, # N's per 100 kbp =  0.00
+    18 1803_irida_submission_4686, N50 = 271389, L50 = 6, Total length = 4969403, GC % = 52.19, # N's per 100 kbp =  0.00
+    19 1811_irida_submission_4688, N50 = 267805, L50 = 6, Total length = 4868700, GC % = 52.24, # N's per 100 kbp =  0.00
+    20 1888_irida_submission_4690, N50 = 271389, L50 = 6, Total length = 4948683, GC % = 52.25, # N's per 100 kbp =  0.00
+    21 1890_irida_submission_4692, N50 = 376792, L50 = 5, Total length = 4949668, GC % = 52.25, # N's per 100 kbp =  0.00
+    22 1891_irida_submission_4694, N50 = 236358, L50 = 6, Total length = 4945453, GC % = 52.25, # N's per 100 kbp =  0.00
+    23 1892_irida_submission_4756, N50 = 177109, L50 = 7, Total length = 5039839, GC % = 52.19, # N's per 100 kbp =  0.00
+    24 1893_irida_submission_4751, N50 = 171211, L50 = 8, Total length = 5036457, GC % = 52.20, # N's per 100 kbp =  0.00
+    25 2003_irida_submission_4758, N50 = 398427, L50 = 5, Total length = 4726582, GC % = 52.12, # N's per 100 kbp =  0.00
+    26 2005_irida_submission_4761, N50 = 401095, L50 = 4, Total length = 4730129, GC % = 52.12, # N's per 100 kbp =  0.00
+    27 3125_irida_submission_4766, N50 = 273679, L50 = 6, Total length = 4672423, GC % = 52.26, # N's per 100 kbp =  0.00
+    28 3126_irida_submission_4768, N50 = 184677, L50 = 7, Total length = 4960238, GC % = 52.20, # N's per 100 kbp =  0.00
+    29 3128_irida_submission_4772, N50 = 101789, L50 = 16, Total length = 4954979, GC % = 52.22, # N's per 100 kbp =  0.00
+    30 3132_irida_submission_4774, N50 = 333928, L50 = 6, Total length = 4912934, GC % = 51.96, # N's per 100 kbp =  0.00
+    31 3133_irida_submission_4797, N50 = 506982, L50 = 4, Total length = 4711240, GC % = 52.23, # N's per 100 kbp =  0.00
+    32 3134_irida_submission_4799, N50 = 328835, L50 = 5, Total length = 4912059, GC % = 51.97, # N's per 100 kbp =  0.00
+    33 3135_irida_submission_4801, N50 = 364273, L50 = 4, Total length = 4711336, GC % = 52.23, # N's per 100 kbp =  0.00
+    34 3137_irida_submission_4803, N50 = 281298, L50 = 5, Total length = 4709304, GC % = 52.23, # N's per 100 kbp =  0.00
+    35 3138_irida_submission_4809, N50 = 691882, L50 = 3, Total length = 4700588, GC % = 52.23, # N's per 100 kbp =  0.00
+    36 3139_irida_submission_4813, N50 = 474270, L50 = 4, Total length = 4700502, GC % = 52.23, # N's per 100 kbp =  0.00
+    37 3140_irida_submission_4811, N50 = 291327, L50 = 4, Total length = 4859915, GC % = 52.04, # N's per 100 kbp =  0.00
+    38 3142_irida_submission_4815, N50 = 714898, L50 = 3, Total length = 4683700, GC % = 52.26, # N's per 100 kbp =  0.00
+    39 3143_irida_submission_4819, N50 = 376792, L50 = 5, Total length = 4862374, GC % = 52.24, # N's per 100 kbp =  0.00
+    40 3144_irida_submission_4817, N50 = 408603, L50 = 5, Total length = 4914425, GC % = 51.97, # N's per 100 kbp =  0.00
+    41 3145_irida_submission_4824, N50 = 407524, L50 = 5, Total length = 5010309, GC % = 51.93, # N's per 100 kbp =  0.00
+    42 3146_irida_submission_4822, N50 = 222326, L50 = 8, Total length = 4677319, GC % = 52.26, # N's per 100 kbp =  0.00
+    43 3147_irida_submission_4828, N50 = 370699, L50 = 4, Total length = 4676969, GC % = 52.26, # N's per 100 kbp =  0.00
+    44 3149_irida_submission_4826, N50 = 631235, L50 = 3, Total length = 4676281, GC % = 52.26, # N's per 100 kbp =  0.00
+    45 3151_irida_submission_4830, N50 = 275479, L50 = 6, Total length = 4814359, GC % = 52.14, # N's per 100 kbp =  0.00
+    46 3156_irida_submission_4832, N50 = 683015, L50 = 3, Total length = 4712709, GC % = 52.23, # N's per 100 kbp =  0.00
+    47 3158_irida_submission_4834, N50 = 714819, L50 = 3, Total length = 4714229, GC % = 52.23, # N's per 100 kbp =  0.00
+    48 3160_irida_submission_4836, N50 = 68011, L50 = 20, Total length = 4800317, GC % = 52.19, # N's per 100 kbp =  0.00
+    49 3162_irida_submission_7407, N50 = 191687, L50 = 7, Total length = 4814908, GC % = 52.14, # N's per 100 kbp =  0.00
+    50 3166_irida_submission_7409, N50 = 207706, L50 = 7, Total length = 4815445, GC % = 52.14, # N's per 100 kbp =  0.00
+    51 3167_irida_submission_7542, N50 = 296189, L50 = 6, Total length = 4685948, GC % = 52.17, # N's per 100 kbp =  0.00
+    52 3168_irida_submission_7544, N50 = 396595, L50 = 4, Total length = 4848431, GC % = 52.03, # N's per 100 kbp =  0.00
+    53 3169_irida_submission_7546, N50 = 406369, L50 = 4, Total length = 4694759, GC % = 52.13, # N's per 100 kbp =  0.00
+    54 3171_irida_submission_7548, N50 = 177109, L50 = 7, Total length = 4960356, GC % = 52.20, # N's per 100 kbp =  0.00
+    55 3176_irida_submission_7550, N50 = 225813, L50 = 7, Total length = 4958394, GC % = 52.20, # N's per 100 kbp =  0.00
+    56 3179_irida_submission_7552, N50 = 408444, L50 = 5, Total length = 4862783, GC % = 52.00, # N's per 100 kbp =  0.00
+    57 3180_irida_submission_7554, N50 = 361460, L50 = 5, Total length = 4692886, GC % = 52.13, # N's per 100 kbp =  0.00
+    58 3181_irida_submission_7556, N50 = 389372, L50 = 3, Total length = 4694753, GC % = 52.14, # N's per 100 kbp =  0.00
+    59 3184_irida_submission_7558, N50 = 378801, L50 = 5, Total length = 4863336, GC % = 52.00, # N's per 100 kbp =  0.00
+    60 3186_irida_submission_7560, N50 = 441314, L50 = 4, Total length = 4784305, GC % = 52.25, # N's per 100 kbp =  0.00
+    61 3191_irida_submission_7562, N50 = 735380, L50 = 2, Total length = 4675105, GC % = 52.26, # N's per 100 kbp =  0.00
+    62 3193_irida_submission_7564, N50 = 520605, L50 = 4, Total length = 4881386, GC % = 52.15, # N's per 100 kbp =  0.00
+    63 3197_irida_submission_7566, N50 = 660800, L50 = 4, Total length = 4707351, GC % = 52.24, # N's per 100 kbp =  0.00
+    64 3198_irida_submission_7568, N50 = 191687, L50 = 8, Total length = 4811884, GC % = 52.13, # N's per 100 kbp =  0.00
+    65 3199_irida_submission_7570, N50 = 185970, L50 = 8, Total length = 4815637, GC % = 52.14, # N's per 100 kbp =  0.00
+    66 3200_irida_submission_7572, N50 = 365855, L50 = 4, Total length = 4670425, GC % = 52.27, # N's per 100 kbp =  0.00
+    67 3302_irida_submission_7574, N50 = 342512, L50 = 6, Total length = 5045451, GC % = 51.94, # N's per 100 kbp =  0.00
+    68 3303_irida_submission_7576, N50 = 491914, L50 = 3, Total length = 4693478, GC % = 52.14, # N's per 100 kbp =  0.00
+    69 3305_irida_submission_7578, N50 = 220837, L50 = 7, Total length = 4868971, GC % = 52.00, # N's per 100 kbp =  0.00
+    70 3306_irida_submission_7580, N50 = 285825, L50 = 7, Total length = 4865435, GC % = 51.99, # N's per 100 kbp =  0.00
+    71 3310_irida_submission_7582, N50 = 264501, L50 = 6, Total length = 5040584, GC % = 51.94, # N's per 100 kbp =  0.00
+    72 3311_irida_submission_7584, N50 = 234566, L50 = 7, Total length = 5043155, GC % = 51.95, # N's per 100 kbp =  0.00
+    73 3313_irida_submission_7586, N50 = 333928, L50 = 5, Total length = 5044010, GC % = 51.94, # N's per 100 kbp =  0.00
+    74 3314_irida_submission_7588, N50 = 260763, L50 = 6, Total length = 4910712, GC % = 51.96, # N's per 100 kbp =  0.00
+    75 3315_irida_submission_7590, N50 = 328762, L50 = 5, Total length = 5043758, GC % = 51.94, # N's per 100 kbp =  0.00
+    76 3317_irida_submission_7592, N50 = 407491, L50 = 4, Total length = 4767307, GC % = 52.04, # N's per 100 kbp =  0.00
+    77 3318_irida_submission_7594, N50 = 237807, L50 = 7, Total length = 5044721, GC % = 51.94, # N's per 100 kbp =  0.00
+    78 3319_irida_submission_7596, N50 = 226465, L50 = 9, Total length = 4995249, GC % = 52.09, # N's per 100 kbp =  0.00
+    79 3321_irida_submission_7485, N50 = 189013, L50 = 8, Total length = 4860314, GC % = 52.04, # N's per 100 kbp =  0.00
+    80 3322_irida_submission_7487, N50 = 285886, L50 = 6, Total length = 4870556, GC % = 51.99, # N's per 100 kbp =  0.00
+    81 3323_irida_submission_7499, N50 = 407478, L50 = 5, Total length = 5043221, GC % = 51.94, # N's per 100 kbp =  0.02
+    82 3324_irida_submission_7489, N50 = 285964, L50 = 7, Total length = 4866754, GC % = 51.99, # N's per 100 kbp =  0.00
+    83 3326_irida_submission_7491, N50 = 146200, L50 = 11, Total length = 4827856, GC % = 52.08, # N's per 100 kbp =  0.00
+    84 3332_irida_submission_7376, N50 = 291737, L50 = 5, Total length = 4847520, GC % = 52.04, # N's per 100 kbp =  0.00
+    85 3333_irida_submission_7381, N50 = 225811, L50 = 8, Total length = 5011381, GC % = 52.12, # N's per 100 kbp =  0.00
+    86 3336_irida_submission_7501, N50 = 328632, L50 = 6, Total length = 5043744, GC % = 51.94, # N's per 100 kbp =  0.02
+    87 3337_irida_submission_7503, N50 = 407313, L50 = 5, Total length = 5044455, GC % = 51.94, # N's per 100 kbp =  0.00
+    88 3338_irida_submission_7505, N50 = 328632, L50 = 5, Total length = 4905356, GC % = 52.02, # N's per 100 kbp =  0.00
+    89 3339_irida_submission_7440, N50 = 376792, L50 = 5, Total length = 4861220, GC % = 52.24, # N's per 100 kbp =  0.00
+    90 3341_irida_submission_7493, N50 = 285443, L50 = 6, Total length = 4858685, GC % = 52.02, # N's per 100 kbp =  0.00
+    91 3342_irida_submission_7379, N50 = 298840, L50 = 5, Total length = 4850514, GC % = 52.04, # N's per 100 kbp =  0.00
+    92 3344_irida_submission_7495, N50 = 276742, L50 = 7, Total length = 4765681, GC % = 52.04, # N's per 100 kbp =  0.00
+    93 3348_irida_submission_7346, N50 = 478484, L50 = 3, Total length = 4642501, GC % = 52.13, # N's per 100 kbp =  0.00
+    94 3349_irida_submission_7507, N50 = 333363, L50 = 5, Total length = 5042222, GC % = 51.94, # N's per 100 kbp =  0.00
+    95 3351_irida_submission_7497, N50 = 332959, L50 = 6, Total length = 4865668, GC % = 51.99, # N's per 100 kbp =  0.00
+    96 3352_irida_submission_7348, N50 = 490199, L50 = 3, Total length = 4698618, GC % = 52.13, # N's per 100 kbp =  0.00
+    97 3353_irida_submission_7444, N50 = 534506, L50 = 4, Total length = 4711255, GC % = 52.23, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/GC_content_plot.pdf
+  Drawing 1758_irida_submission_4654 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1758_irida_submission_4654_GC_content_plot.pdf
+  Drawing 1760_irida_submission_4658 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1760_irida_submission_4658_GC_content_plot.pdf
+  Drawing 1762_irida_submission_4660 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1762_irida_submission_4660_GC_content_plot.pdf
+  Drawing 1766_irida_submission_4662 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1766_irida_submission_4662_GC_content_plot.pdf
+  Drawing 1767_irida_submission_4664 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1767_irida_submission_4664_GC_content_plot.pdf
+  Drawing 1768_irida_submission_4666 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1768_irida_submission_4666_GC_content_plot.pdf
+  Drawing 1769_irida_submission_4668 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1769_irida_submission_4668_GC_content_plot.pdf
+  Drawing 1770_irida_submission_4670 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1770_irida_submission_4670_GC_content_plot.pdf
+  Drawing 1771_irida_submission_4672 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1771_irida_submission_4672_GC_content_plot.pdf
+  Drawing 1772_irida_submission_4674 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1772_irida_submission_4674_GC_content_plot.pdf
+  Drawing 1773_irida_submission_4676 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1773_irida_submission_4676_GC_content_plot.pdf
+  Drawing 1775_irida_submission_4678 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1775_irida_submission_4678_GC_content_plot.pdf
+  Drawing 1778_irida_submission_4656 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1778_irida_submission_4656_GC_content_plot.pdf
+  Drawing 1783_irida_submission_10146 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1783_irida_submission_10146_GC_content_plot.pdf
+  Drawing 1792_irida_submission_4680 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1792_irida_submission_4680_GC_content_plot.pdf
+  Drawing 1793_irida_submission_4684 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1793_irida_submission_4684_GC_content_plot.pdf
+  Drawing 1797_irida_submission_4682 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1797_irida_submission_4682_GC_content_plot.pdf
+  Drawing 1803_irida_submission_4686 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1803_irida_submission_4686_GC_content_plot.pdf
+  Drawing 1811_irida_submission_4688 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1811_irida_submission_4688_GC_content_plot.pdf
+  Drawing 1888_irida_submission_4690 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1888_irida_submission_4690_GC_content_plot.pdf
+  Drawing 1890_irida_submission_4692 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1890_irida_submission_4692_GC_content_plot.pdf
+  Drawing 1891_irida_submission_4694 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1891_irida_submission_4694_GC_content_plot.pdf
+  Drawing 1892_irida_submission_4756 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1892_irida_submission_4756_GC_content_plot.pdf
+  Drawing 1893_irida_submission_4751 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/1893_irida_submission_4751_GC_content_plot.pdf
+  Drawing 2003_irida_submission_4758 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/2003_irida_submission_4758_GC_content_plot.pdf
+  Drawing 2005_irida_submission_4761 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/2005_irida_submission_4761_GC_content_plot.pdf
+  Drawing 3125_irida_submission_4766 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3125_irida_submission_4766_GC_content_plot.pdf
+  Drawing 3126_irida_submission_4768 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3126_irida_submission_4768_GC_content_plot.pdf
+  Drawing 3128_irida_submission_4772 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3128_irida_submission_4772_GC_content_plot.pdf
+  Drawing 3132_irida_submission_4774 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3132_irida_submission_4774_GC_content_plot.pdf
+  Drawing 3133_irida_submission_4797 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3133_irida_submission_4797_GC_content_plot.pdf
+  Drawing 3134_irida_submission_4799 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3134_irida_submission_4799_GC_content_plot.pdf
+  Drawing 3135_irida_submission_4801 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3135_irida_submission_4801_GC_content_plot.pdf
+  Drawing 3137_irida_submission_4803 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3137_irida_submission_4803_GC_content_plot.pdf
+  Drawing 3138_irida_submission_4809 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3138_irida_submission_4809_GC_content_plot.pdf
+  Drawing 3139_irida_submission_4813 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3139_irida_submission_4813_GC_content_plot.pdf
+  Drawing 3140_irida_submission_4811 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3140_irida_submission_4811_GC_content_plot.pdf
+  Drawing 3142_irida_submission_4815 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3142_irida_submission_4815_GC_content_plot.pdf
+  Drawing 3143_irida_submission_4819 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3143_irida_submission_4819_GC_content_plot.pdf
+  Drawing 3144_irida_submission_4817 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3144_irida_submission_4817_GC_content_plot.pdf
+  Drawing 3145_irida_submission_4824 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3145_irida_submission_4824_GC_content_plot.pdf
+  Drawing 3146_irida_submission_4822 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3146_irida_submission_4822_GC_content_plot.pdf
+  Drawing 3147_irida_submission_4828 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3147_irida_submission_4828_GC_content_plot.pdf
+  Drawing 3149_irida_submission_4826 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3149_irida_submission_4826_GC_content_plot.pdf
+  Drawing 3151_irida_submission_4830 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3151_irida_submission_4830_GC_content_plot.pdf
+  Drawing 3156_irida_submission_4832 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3156_irida_submission_4832_GC_content_plot.pdf
+  Drawing 3158_irida_submission_4834 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3158_irida_submission_4834_GC_content_plot.pdf
+  Drawing 3160_irida_submission_4836 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3160_irida_submission_4836_GC_content_plot.pdf
+  Drawing 3162_irida_submission_7407 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3162_irida_submission_7407_GC_content_plot.pdf
+  Drawing 3166_irida_submission_7409 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3166_irida_submission_7409_GC_content_plot.pdf
+  Drawing 3167_irida_submission_7542 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3167_irida_submission_7542_GC_content_plot.pdf
+  Drawing 3168_irida_submission_7544 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3168_irida_submission_7544_GC_content_plot.pdf
+  Drawing 3169_irida_submission_7546 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3169_irida_submission_7546_GC_content_plot.pdf
+  Drawing 3171_irida_submission_7548 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3171_irida_submission_7548_GC_content_plot.pdf
+  Drawing 3176_irida_submission_7550 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3176_irida_submission_7550_GC_content_plot.pdf
+  Drawing 3179_irida_submission_7552 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3179_irida_submission_7552_GC_content_plot.pdf
+  Drawing 3180_irida_submission_7554 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3180_irida_submission_7554_GC_content_plot.pdf
+  Drawing 3181_irida_submission_7556 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3181_irida_submission_7556_GC_content_plot.pdf
+  Drawing 3184_irida_submission_7558 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3184_irida_submission_7558_GC_content_plot.pdf
+  Drawing 3186_irida_submission_7560 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3186_irida_submission_7560_GC_content_plot.pdf
+  Drawing 3191_irida_submission_7562 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3191_irida_submission_7562_GC_content_plot.pdf
+  Drawing 3193_irida_submission_7564 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3193_irida_submission_7564_GC_content_plot.pdf
+  Drawing 3197_irida_submission_7566 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3197_irida_submission_7566_GC_content_plot.pdf
+  Drawing 3198_irida_submission_7568 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3198_irida_submission_7568_GC_content_plot.pdf
+  Drawing 3199_irida_submission_7570 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3199_irida_submission_7570_GC_content_plot.pdf
+  Drawing 3200_irida_submission_7572 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3200_irida_submission_7572_GC_content_plot.pdf
+  Drawing 3302_irida_submission_7574 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3302_irida_submission_7574_GC_content_plot.pdf
+  Drawing 3303_irida_submission_7576 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3303_irida_submission_7576_GC_content_plot.pdf
+  Drawing 3305_irida_submission_7578 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3305_irida_submission_7578_GC_content_plot.pdf
+  Drawing 3306_irida_submission_7580 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3306_irida_submission_7580_GC_content_plot.pdf
+  Drawing 3310_irida_submission_7582 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3310_irida_submission_7582_GC_content_plot.pdf
+  Drawing 3311_irida_submission_7584 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3311_irida_submission_7584_GC_content_plot.pdf
+  Drawing 3313_irida_submission_7586 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3313_irida_submission_7586_GC_content_plot.pdf
+  Drawing 3314_irida_submission_7588 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3314_irida_submission_7588_GC_content_plot.pdf
+  Drawing 3315_irida_submission_7590 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3315_irida_submission_7590_GC_content_plot.pdf
+  Drawing 3317_irida_submission_7592 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3317_irida_submission_7592_GC_content_plot.pdf
+  Drawing 3318_irida_submission_7594 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3318_irida_submission_7594_GC_content_plot.pdf
+  Drawing 3319_irida_submission_7596 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3319_irida_submission_7596_GC_content_plot.pdf
+  Drawing 3321_irida_submission_7485 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3321_irida_submission_7485_GC_content_plot.pdf
+  Drawing 3322_irida_submission_7487 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3322_irida_submission_7487_GC_content_plot.pdf
+  Drawing 3323_irida_submission_7499 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3323_irida_submission_7499_GC_content_plot.pdf
+  Drawing 3324_irida_submission_7489 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3324_irida_submission_7489_GC_content_plot.pdf
+  Drawing 3326_irida_submission_7491 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3326_irida_submission_7491_GC_content_plot.pdf
+  Drawing 3332_irida_submission_7376 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3332_irida_submission_7376_GC_content_plot.pdf
+  Drawing 3333_irida_submission_7381 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3333_irida_submission_7381_GC_content_plot.pdf
+  Drawing 3336_irida_submission_7501 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3336_irida_submission_7501_GC_content_plot.pdf
+  Drawing 3337_irida_submission_7503 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3337_irida_submission_7503_GC_content_plot.pdf
+  Drawing 3338_irida_submission_7505 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3338_irida_submission_7505_GC_content_plot.pdf
+  Drawing 3339_irida_submission_7440 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3339_irida_submission_7440_GC_content_plot.pdf
+  Drawing 3341_irida_submission_7493 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3341_irida_submission_7493_GC_content_plot.pdf
+  Drawing 3342_irida_submission_7379 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3342_irida_submission_7379_GC_content_plot.pdf
+  Drawing 3344_irida_submission_7495 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3344_irida_submission_7495_GC_content_plot.pdf
+  Drawing 3348_irida_submission_7346 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3348_irida_submission_7346_GC_content_plot.pdf
+  Drawing 3349_irida_submission_7507 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3349_irida_submission_7507_GC_content_plot.pdf
+  Drawing 3351_irida_submission_7497 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3351_irida_submission_7497_GC_content_plot.pdf
+  Drawing 3352_irida_submission_7348 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3352_irida_submission_7348_GC_content_plot.pdf
+  Drawing 3353_irida_submission_7444 GC content plot...
+    saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/basic_stats/3353_irida_submission_7444_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2019-06-03 23:44:02
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+..step skipped!
+
+2019-06-03 23:44:14
+RESULTS:
+  Text versions of total report are saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/report.html
+  Icarus (contig browser) is saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/icarus.html
+  Log is saved to /home/fin/Documents/postdoc/salmonella/salmonella_ast_prediction/data/genomes/used/quast_results/results_2019_06_03_23_43_12/quast.log
+
+Finished: 2019-06-03 23:44:14
+Elapsed time: 0:01:01.800816
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
