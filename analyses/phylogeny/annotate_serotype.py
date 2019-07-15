@@ -3,7 +3,7 @@ import copy
 import pandas as pd
 import seaborn as sns
 
-ast_df = pd.read_pickle('../ast/ast_df.pkl')
+ast_df = pd.read_pickle('../ast/ast.pkl')
 
 tree = ete3.Tree('pangenome_snps.phylip.contree')
 
@@ -15,10 +15,10 @@ def setup_heatmap(tree, tree_style, ast_df):
     for lf in tree:
         for i, abx in enumerate(ast_df):
             value = ast_df.loc[lf.name, abx]
-            print(lf.name)
-            print(abx)
-            print(value)
-            print()
+            #print(lf.name)
+            #print(abx)
+            #print(value)
+            #print()
 
             if value == 'R':
                 color = 'white'
@@ -63,21 +63,13 @@ ts.mode = 'c'
 ts.arc_span = 350
 #ts.scale = 5000
 
-
-for n in tree.traverse():
-    nstyle = ete3.NodeStyle()
-    #nstyle["vt_line_width"] = 2
-    #nstyle["hz_line_width"] = 2
-    if n.support >= 95:
-        nstyle["fgcolor"] = "red"
-        nstyle["size"] = 5
-    elif n.support < 95:
-        nstyle["fgcolor"] = "black"
-        nstyle["size"] = 5
-    else:
-        nstyle["size"] = 0
-    n.set_style(nstyle)
-
+#style = ete3.NodeStyle()
+#style["vt_line_width"] = 20
+#style["hz_line_width"] = 20
+#style["vt_line_type"] = 5 # 0 solid, 1 dashed, 2 dotted
+#style["hz_line_type"] = 5
+#tree.set_style(style)
+#
 
 
 
@@ -120,6 +112,9 @@ kent.set_style(kent_style)
 
 kent = tree.get_common_ancestor('3326', '3184')
 kent.set_style(kent_style)
+kent = tree.search_nodes(name = '1758')[0]
+kent.set_style(kent_style)
+
 
 #kent = tree.get_common_ancestor('3132', '3317')
 #kent.set_style(kent_style)
@@ -128,9 +123,6 @@ kent.set_style(kent_style)
 enter = tree.get_common_ancestor('1797', '3303')
 enter_style = ete3.NodeStyle()
 enter_style['bgcolor'] = sero_lut['Enteritidis']
-enter.set_style(enter_style)
-
-enter = tree.search_nodes(name = '1758')[0]
 enter.set_style(enter_style)
 
 
@@ -165,6 +157,28 @@ thompson_node.img_style['bgcolor'] = sero_lut['Thompson']
 tree.set_outgroup(thompson_node)
 
 
+for n in tree.traverse():
+
+    nstyle = n._get_style()
+    nstyle["vt_line_width"] = 2
+    nstyle["hz_line_width"] = 2
+    nstyle["fgcolor"] = "black"
+    nstyle['shape'] = "square"
+    nstyle["size"] = 2
+
+    if n.support >= 90:
+        nstyle["fgcolor"] = "black"
+        nstyle['shape'] = "circle"
+        nstyle["size"] = 8
+   #else:
+    #    nstyle["fgcolor"] = "black"
+    #    nstyle["size"] = 5
+
+
+    n.set_style(nstyle)
+
+
+
 def layout(node):
     if node.is_leaf():
         if node.name in bl_misclassified:
@@ -186,8 +200,6 @@ ts.show_leaf_name = False
 ts.layout_fn = layout
 setup_heatmap(tree, ts, ast_df)
 #ts.show_branch_support = True
-#tree.img_style['vt_line_width'] = 2
-#tree.img_style['hz_line_width'] = 2
 
 
 tree.render('phylogenyserotype.pdf', tree_style=ts)
